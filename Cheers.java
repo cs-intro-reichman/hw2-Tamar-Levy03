@@ -6,7 +6,6 @@ public class Cheers {
             String upperCase = cheers.toUpperCase();
             String an = "AEFHILMNORSX";
             int i = 0;
-            System.out.println(upperCase);
             while (i < upperCase.length()) {
                 char lettar = upperCase.charAt(i);
                 if (an.indexOf(lettar) == -1) {
