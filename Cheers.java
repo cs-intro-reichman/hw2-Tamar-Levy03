@@ -12,7 +12,7 @@ public class Cheers {
                         System.out.println("Give me a " + lettar + ": " + lettar + "!");
                 }
                 else{
-                        System.out.println("Give me an  " + lettar + ": " + lettar + "!");    
+                        System.out.println("Give me an " + lettar + ": " + lettar + "!");    
                 }
                 ++i;
                 
