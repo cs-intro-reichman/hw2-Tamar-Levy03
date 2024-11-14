@@ -2,24 +2,19 @@
 public class CalcPi {
 	public static void main(String [] args) { 
 	    int num = Integer.parseInt(args[0]);
-		double sum = 1;
-		double counter = 3;
-		int check = 0;
+		double sum = 0;
+		double counter = 1;
 		for(int i = 0; i < num; i++ ){
-
-			if (i%2 == 0) {
-				if (check%2 == 0) {
-					sum = sum - (1/counter);
+				if (i%2 == 0) {
+					sum = sum + (1/counter);
 				}
 				else{
-					sum = sum + (1/counter);
-
+					sum = sum - (1/counter);
 				}
-				++check;
 				counter=counter+2;
 			}
-		}
-		System.out.println(sum*4);
+		System.out.println("pi according to Java: " + Math.PI);
+		System.out.println("pi, approximated: " + sum*4);
 
 	}
 }

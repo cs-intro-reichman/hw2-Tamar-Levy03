@@ -10,10 +10,10 @@ public class Cheers {
             while (i < upperCase.length()) {
                 char lettar = upperCase.charAt(i);
                 if (an.indexOf(lettar) == -1) {
-                        System.out.println("Give me a:  " + lettar + "!");
+                        System.out.println("Give me a  " + lettar + ": " + lettar + "!");
                 }
                 else{
-                        System.out.println("Give me an: " + lettar + "!");    
+                        System.out.println("Give me an " + lettar + ":  " + lettar + "!");    
                 }
                 ++i;
                 
